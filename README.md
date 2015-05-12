@@ -1,4 +1,6 @@
-This project demonstrates a (possible) bug in ebean when having multiple many to many relations.
+This project demonstrates a (possible) bug in ebean when having multiple many to many relations and using .fetch(...)
+to prefetch all these relations. When .fetch(...) is not used, it works as expected.
+
 The relations are as follows:
 
 ```
